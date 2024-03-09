@@ -5,44 +5,88 @@ string chosenWord = wordSelector(); //initializes string chosenWord with a rando
 Console.WriteLine("Welome to hangman, guess the righ word before the counter runs out!\nPress any key to continue");
 Console.ReadKey(); 
 Console.WriteLine();
+bool gameOver = false;
 
-
-
-string[] progressWord = initializeProgress(chosenWord); 
-
-
-int tryAmount = chosenWord.Length * 2 + 2; //calculates the amount of tries it takes to guess the right word. 
-bool lostGame = true;
-int counter = tryAmount; 
-
-
-for (int o = 0; o < tryAmount; o++)
+while (gameOver == false) 
 {
-    Console.WriteLine($"You have {counter} attempts left");
-        progressWord = guess(chosenWord,  progressWord); 
-        foreach ( string x in  progressWord) //Displays the progress of the word.
+    bool selector = false;
+    Console.WriteLine("--Select what you wish to do--");
+    Console.WriteLine("1. Friend selects word\n2. Guess randomly selected word\n3. Quit game");
+    
+    
+        while (!selector)
+         {
+            string userInput = Console.ReadLine(); 
+            switch (userInput)
         {
-            Console.Write(x);
+            case "1":
+                Console.WriteLine("Please enter word used for hangman");
+                chosenWord = Console.ReadLine(); 
+                selector = true;
+            break;
+
+            case "2":
+                 chosenWord = wordSelector();
+                 selector = true;
+                 break;
+            case "3":
+                Console.WriteLine("Good bye");
+                selector = true;
+                gameOver = true; 
+                break;
+            default: 
+                Console.WriteLine("Invalid input, please try again");
+            
+            break;
+                
         }
-    Console.WriteLine();
+         }
+        
+        
+    
 
-    // Count the number of underscores in progressWord
-    int underscoreCount = progressWord.Count(c => c == "_");
+        
 
-    // If there are no underscores left, all letters have been filled in
-    if (underscoreCount == 0)
-    {
-        Console.WriteLine($"The chosen word was \"{chosenWord}\". Congratulations you won!");
-        lostGame = false;
-        break;
-    }
-    counter--; 
-    Console.WriteLine();
-}
-if (lostGame == true)
-{
-    Console.WriteLine("You lost, thanks for playing!");
-}
+        string[] progressWord = initializeProgress(chosenWord); 
+
+
+        int tryAmount = chosenWord.Length * 2 + 2; //calculates the amount of tries it takes to guess the right word. 
+        bool lostGame = true;
+        int counter = tryAmount; 
+
+
+        for (int o = 0; o < tryAmount; o++)
+        {
+            Console.WriteLine($"You have {counter} attempts left");
+                progressWord = guess(chosenWord,  progressWord); 
+                foreach ( string x in  progressWord) //Displays the progress of the word.
+                {
+                    Console.Write(x);
+                }
+            Console.WriteLine();
+
+            // Count the number of underscores in progressWord
+            int underscoreCount = progressWord.Count(c => c == "_");
+
+            // If there are no underscores left, all letters have been filled in
+            if (underscoreCount == 0)
+            {
+                Console.WriteLine($"The chosen word was \"{chosenWord}\". Congratulations you won!");
+                lostGame = false;
+                break;
+            }
+            counter--; 
+            Console.WriteLine();
+        }
+        if (lostGame == true)
+        {
+            Console.WriteLine("You lost, thanks for playing!");
+        }
+        Console.WriteLine("Press any key to continue");
+        Console.ReadKey();
+        Console.Clear();
+} 
+
 
 
 
