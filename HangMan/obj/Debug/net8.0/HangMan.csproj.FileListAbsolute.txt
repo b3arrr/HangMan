@@ -1,0 +1,14 @@
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\bin\Debug\net8.0\HangMan.exe
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\bin\Debug\net8.0\HangMan.deps.json
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\bin\Debug\net8.0\HangMan.runtimeconfig.json
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\bin\Debug\net8.0\HangMan.dll
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\bin\Debug\net8.0\HangMan.pdb
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.AssemblyInfoInputs.cache
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.AssemblyInfo.cs
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.csproj.CoreCompileInputs.cache
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.dll
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\refint\HangMan.dll
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.pdb
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\HangMan.genruntimeconfig.cache
+D:\programmering\C#\Projects\c#projects\HangMan\hangman\obj\Debug\net8.0\ref\HangMan.dll
