@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\HangMan.csproj": {}
+    "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\HangMan.csproj": {}
   },
   "projects": {
-    "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\HangMan.csproj": {
+    "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\HangMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\HangMan.csproj",
+        "projectUniqueName": "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\HangMan.csproj",
         "projectName": "HangMan",
-        "projectPath": "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\HangMan.csproj",
+        "projectPath": "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\HangMan.csproj",
         "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
-        "outputPath": "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\obj\\",
+        "outputPath": "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

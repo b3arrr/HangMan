@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NA/6/Y9g9J/B5MRx9/9Qf8r1tV8L0A7bpUro3NePHAm4y+nEukU6e9ehnzm37LQ+YhA7OG0O76wqy7kSTcI/jA==",
+  "dgSpecHash": "8aRcW170C9nsGVJMQYBAYAA6lvOwsUxXf9Ggjzwczn+2UZJCXF78Oz31onf3P1Ed7sD8UgTZFfOLmV2bAcn0Cg==",
   "success": true,
-  "projectFilePath": "D:\\programmering\\C#\\Projects\\c#projects\\HangMan\\hangman\\HangMan.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Bjørnar\\Work\\Coding\\Learning\\C#\\c#projects\\HangMan\\hangman\\HangMan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bjorn\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\bjorn\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
   "logs": []
 }
